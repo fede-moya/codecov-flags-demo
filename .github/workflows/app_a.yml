@@ -48,4 +48,4 @@ jobs:
 
       - name: Upload results to Codecov
         working-directory: app_a
-        run: ./codecov -F app_a -f coverage/coverage.json -t 3f3bae5d-5036-448f-9107-c1418e07fe64 
+        run: ./codecov -F app_a -f coverage/coverage.json -t 6ba243c1-340c-405c-afb7-cdae1c0de1ec
