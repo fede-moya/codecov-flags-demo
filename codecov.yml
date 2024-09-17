@@ -1,0 +1,25 @@
+codecov:
+  allow_pseudo_compare: true
+
+coverage:
+  status:
+    project:
+      default: off
+      app_a:
+        flags:
+          - app_a
+      app_b:
+        flags:
+          - app_b
+
+comment:
+  require_base: no
+  layout: " diff, flags, files"
+  require_changes: false
+
+
+flags:
+  app_a:
+    carryforward: true
+  app_b:
+    carryforward: false
